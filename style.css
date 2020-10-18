@@ -910,7 +910,6 @@ submit
 /*.form-group {
   margin-bottom: 50px;
 }
-
 .form-control {
   display: block;
   width: 100%;
@@ -922,19 +921,16 @@ submit
   font-weight: 400;
   font-size: 14px;
   font-style: normal;
-
   background-color: transparent;
   background-image: none;
   border-width: 0 0 2px 0;
   border-style: solid;
   border-color: #d0d0d0;
   border-color: rgba(255,255,255,0.39);
-
   -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
   -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
   transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
-
 */
 /**
  * 4.0 - Grid
@@ -1713,7 +1709,6 @@ submit
   overflow: hidden;
   position: static;
 }
-
 .valign-middle {
   top: 50%;
   width: 100%;
@@ -1721,7 +1716,6 @@ submit
   display: table-cell;
   vertical-align: middle;
 }
-
 .valign-inner {
   top: -50%;
   position: relative;
@@ -6194,7 +6188,6 @@ h1, h2, h3, h4, h5, h6 {
     opacity: 0.54;
     color: #000000;
     font-size: 18px;
-    font-weight: 600;
     line-height: 27px;
     margin: 0 40px 0 0;
     border: 0;

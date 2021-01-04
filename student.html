@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>学生信息</title>
+    <title>人员信息</title>
     <meta name="description" content="">
 
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -50,7 +50,7 @@
                                     <ul class="clear-list">
                                         <li><a href="index.html">主页</a></li>
                                         <li><a href="research.html">科研</a></li>
-                                        <li><a href="student.html">学生信息</a>
+                                        <li><a href="student.html">人员信息</a>
                                         <li><a href="activity.html">课题组活动</a></li>
                                         <li><a href="webAdmin.html">实验室建设</a></li>
                                     </ul>
@@ -75,7 +75,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="student.html" data-tooltip="Portfolio">学生信息</a>
+                        <a href="student.html" data-tooltip="Portfolio">人员信息</a>
                     </li>
                     <li>
                         <a href="activity.html" data-tooltip="References">课题组活动</a>
@@ -118,16 +118,18 @@
 						<!-- START: PAGE CONTENT -->
 
 <div class="padd-box">
-    <h1 class="title-thin text-muted">学生信息</h1>
+    <h1 class="title-thin text-muted">人员信息</h1>
 </div>
 
 
 <div class="pf-wrap">
     <div class="pf-filter padd-box">
-        <button data-filter=".doctor,.graduate-student,.Undergraduate" class="title-thin text-muted">全部</button>
+        <button data-filter=".doctor,.graduate-student,.Undergraduate,.exchange,.assistant" class="title-thin text-muted">全部</button>
         <button data-filter=".doctor" class="title-thin text-muted">博士</button>
         <button data-filter=".graduate-student" class="title-thin text-muted">硕士</button>
         <button data-filter=".Undergraduate" class="title-thin text-muted">本科</button>
+        <button data-filter=".exchange" class="title-thin text-muted">交流人员</button>
+        <button data-filter=".assistant" class="title-thin text-muted">财务助理</button>
         <button data-filter=".graduated" id='show-graduated'  class="title-thin text-muted">已毕业</button>
     </div><!-- .pf-filter -->
 
@@ -1053,6 +1055,155 @@
         </div><!-- .pf-grid-item -->
 
 
+        <div class="pf-grid-item Undergraduate">                        <!--张坤鹏部分从全部里引用到本科生里-->
+            <div class="project">
+                <figure class="portfolio-figure">
+                    <img src="img/uploads/portfolio/prj-27.jpg" alt="">
+                </figure>
+
+                <div class="portfolio-caption text-center">
+                    <div class="valign-table">
+                        <div class="valign-cell">
+                            <h2 class="text-upper">张坤鹏</h2>
+                            <p></p>
+                            <a href="#pf-popup-27" class="pf-btn-view btn btn-primary">View More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="pf-popup-27" class="pf-popup clearfix">
+                <div class="pf-popup-col1">
+                    <div class="pf-popup-media">
+                    <img src="img/uploads/portfolio/prj-27.jpg" alt="">
+
+                    </div>
+                </div><!-- .pf-popup-col1 -->
+
+                <div class="pf-popup-col2">
+                    <div class="pf-popup-info clear-mrg">
+                        <h2 class="text-upper">张坤鹏</h2>
+                        <p class="text-muted"><strong>2017级本科生</strong></p>
+                        <dl class="dl-horizontal">
+                            <dt>生日:</dt>
+                            <dd>1997.10.28</dd>
+
+                            <dt>家乡:</dt>
+                            <dd> 山东 青岛</dd>
+
+                            <dt>邮箱:</dt>
+                            <dd> 1109550643@qq.com</dd>
+            
+                            <dt>研究方向:</dt>
+                            <dd>风电场仿真模型的解耦计算、并行模型的实现方案</dd>
+                        </dl>
+                    </div><!-- .pf-popup-info -->
+
+                </div><!-- .pf-popup-col2 -->
+            </div><!-- .pf-popup -->
+        </div><!-- .pf-grid-item -->
+
+
+
+
+        <div class="pf-grid-item exchange">                        <!--王鹏部分从全部里引用到交流人员里-->
+            <div class="project">
+                <figure class="portfolio-figure">
+                    <img src="img/uploads/portfolio/prj-25.jpg" alt="">
+                </figure>
+
+                <div class="portfolio-caption text-center">
+                    <div class="valign-table">
+                        <div class="valign-cell">
+                            <h2 class="text-upper">王鹏</h2>
+                            <p></p>
+                            <a href="#pf-popup-25" class="pf-btn-view btn btn-primary">View More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="pf-popup-25" class="pf-popup clearfix">
+                <div class="pf-popup-col1">
+                    <div class="pf-popup-media">
+                    <img src="img/uploads/portfolio/prj-25.jpg" alt="">
+
+                    </div>
+                </div><!-- .pf-popup-col1 -->
+
+                <div class="pf-popup-col2">
+                    <div class="pf-popup-info clear-mrg">
+                        <h2 class="text-upper">王鹏</h2>
+                        <p class="text-muted"><strong>交流人员</strong></p>
+                        <dl class="dl-horizontal">
+                            <dt>生日:</dt>
+                            <dd>1988.11.12</dd>
+
+                            <dt>家乡:</dt>
+                            <dd> 山东 临沂</dd>
+
+                            <dt>邮箱:</dt>
+                            <dd> wangpeng072@hotmail.com</dd>
+            
+                            <dt>研究方向:</dt>
+                            <dd>柔性直流输电，交直流混合输电系统，风电并网稳定性分析</dd>
+                        </dl>
+                    </div><!-- .pf-popup-info -->
+
+                </div><!-- .pf-popup-col2 -->
+            </div><!-- .pf-popup -->
+        </div><!-- .pf-grid-item -->
+
+
+        <div class="pf-grid-item assistant">                        <!--张莹部分从全部里引用到财务助理里-->
+            <div class="project">
+                <figure class="portfolio-figure">
+                    <img src="img/uploads/portfolio/prj-26.jpg" alt="">
+                </figure>
+
+                <div class="portfolio-caption text-center">
+                    <div class="valign-table">
+                        <div class="valign-cell">
+                            <h2 class="text-upper">张莹</h2>
+                            <p></p>
+                            <a href="#pf-popup-26" class="pf-btn-view btn btn-primary">View More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="pf-popup-26" class="pf-popup clearfix">
+                <div class="pf-popup-col1">
+                    <div class="pf-popup-media">
+                    <img src="img/uploads/portfolio/prj-26.jpg" alt="">
+
+                    </div>
+                </div><!-- .pf-popup-col1 -->
+
+                <div class="pf-popup-col2">
+                    <div class="pf-popup-info clear-mrg">
+                        <h2 class="text-upper">张莹</h2>
+                        <p class="text-muted"><strong>财务助理</strong></p>
+                        <dl class="dl-horizontal">
+                            <dt>生日:</dt>
+                            <dd>1986.11.02</dd>
+
+                            <dt>家乡:</dt>
+                            <dd> 山东 泰安</dd>
+
+                            <dt>邮箱:</dt>
+                            <dd>isly_zy@126.com</dd>
+            
+
+                        </dl>
+                    </div><!-- .pf-popup-info -->
+
+                </div><!-- .pf-popup-col2 -->
+            </div><!-- .pf-popup -->
+        </div><!-- .pf-grid-item -->
+
+
+ 
 
 
                                                                                                         <!-- 已毕业 -->
